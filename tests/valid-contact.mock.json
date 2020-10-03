@@ -1,0 +1,27 @@
+{
+  "name":
+  {
+      "first": "Gene",
+      "middle": "Pablovich",
+      "last": "Sadiq"
+  },
+  "address":
+  {
+      "street": "1491 Low Autumn Row",
+      "city": "South Brunswick",
+      "state": "Pennsylvania",
+      "zip": "18397"
+  },
+  "phone":
+  [
+      {
+          "number": "203-116-9395",
+          "type": "mobile"
+      },
+      {
+          "number": "302-532-9427",
+          "type": "work"
+      }
+  ],
+  "email": "gene.pablovich@hotmail.com"
+}

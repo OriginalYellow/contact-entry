@@ -1,0 +1,30 @@
+{
+  "name":
+  {
+      "middle": "",
+      "last": 3
+  },
+  "address":
+  {
+      "street": "",
+      "city": "cool city",
+      "state": {},
+      "zip": 18397
+  },
+  "phone":
+  [
+    {
+      "number": "13434243",
+      "type": "work"
+    },
+    {
+      "number": "123123123123",
+      "type": "banana"
+    },
+    {
+      "number": "13434243",
+      "type": "home"
+    }
+  ],
+  "email": "gene.pablovich@hotmail.com"
+}

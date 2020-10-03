@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return a message saying that invalidAddress is not an object 1`] = `"value is not an object"`;
+
+exports[`should return a message saying that invalidName is not an object 1`] = `"value is not an object"`;
+
+exports[`should return an array that indicates which element in the invalid phone array is invalid, and why 1`] = `
+Array [
+  null,
+  Object {
+    "type": "\\"type\\" is not \\"mobile\\", \\"work\\", or \\"home\\"",
+  },
+  null,
+]
+`;
+
+exports[`should return error messages describing the different errors in the invalid contact object 1`] = `
+Object {
+  "address": Object {
+    "state": "value is not a string",
+    "street": "value is nil or empty",
+    "zip": "value is not a string",
+  },
+  "name": Object {
+    "first": "value is not a string",
+    "last": "value is not a string",
+    "middle": "value is nil or empty",
+  },
+  "phone": Array [
+    null,
+    Object {
+      "type": "\\"type\\" is not \\"mobile\\", \\"work\\", or \\"home\\"",
+    },
+    null,
+  ],
+}
+`;
+
+exports[`should return messages describing the different errors in the invalid address object 1`] = `
+Object {
+  "state": "value is not a string",
+  "street": "value is nil or empty",
+  "zip": "value is not a string",
+}
+`;
+
+exports[`should return messages saying that "first" and "last" are not strings, and that "middle" is nil or empty 1`] = `
+Object {
+  "first": "value is not a string",
+  "last": "value is not a string",
+  "middle": "value is nil or empty",
+}
+`;

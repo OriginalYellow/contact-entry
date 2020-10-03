@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return a correctly transformed contact 1`] = `
+Object {
+  "address": Object {
+    "city": "Cannon",
+    "state": "Delaware",
+    "street": "8360 High Autumn Row",
+    "zip": "19797",
+  },
+  "email": "harold.gilkey@yahoo.com",
+  "id": 1,
+  "name": Object {
+    "first": "Harold",
+    "last": "Gilkey",
+    "middle": "Francis",
+  },
+  "phone": Array [
+    Object {
+      "number": "302-611-9148",
+      "type": "home",
+    },
+    Object {
+      "number": "302-532-9427",
+      "type": "mobile",
+    },
+  ],
+}
+`;
+
+exports[`should return an array of correctly transformed contacts 1`] = `
+Array [
+  Object {
+    "address": Object {
+      "city": "Cannon",
+      "state": "Delaware",
+      "street": "8360 High Autumn Row",
+      "zip": "19797",
+    },
+    "email": "harold.gilkey@yahoo.com",
+    "id": 1,
+    "name": Object {
+      "first": "Harold",
+      "last": "Gilkey",
+      "middle": "Francis",
+    },
+    "phone": Array [
+      Object {
+        "number": "302-611-9148",
+        "type": "home",
+      },
+      Object {
+        "number": "302-532-9427",
+        "type": "mobile",
+      },
+    ],
+  },
+  Object {
+    "address": Object {
+      "city": "West Brunswick",
+      "state": "New Jersey",
+      "street": "7 Coleman Rd",
+      "zip": "08816",
+    },
+    "email": "michael.robert.joseph2@gmail.com",
+    "id": 2,
+    "name": Object {
+      "first": "Michael",
+      "last": "Joseph",
+      "middle": "Robert",
+    },
+    "phone": Array [
+      Object {
+        "number": "732-614-6946",
+        "type": "home",
+      },
+      Object {
+        "number": "302-432-8272",
+        "type": "mobile",
+      },
+    ],
+  },
+]
+`;
